@@ -1,0 +1,17 @@
+#
+# NB5 camera:
+#    https://open.ivideon.com/embed/v2/?server=100-22cbd51194b25f1f142ca1a76e55a500&camera=0&width=1920&height=1080&lang=ru&ap=&fs=&noibw=
+#
+
+vertical1 = {1252, 350, 300, 888, 0}
+vertical2 = {1600, 490, 300, 720, -3}
+vertical3 = {3020, 1950, 200, 400, -13}
+vertical4 = {3280, 1900, 170, 400, -13}
+
+horizontal1 = {1860, 720, 1370, 200, 5}
+horizontal2 = {1880, 870, 1380, 200, 1}
+horizontal3 = {2220, 1040, 1060, 200, 0}
+horizontal4 = {2300, 1365, 730, 130, -2}
+
+angle1 = {600, 1610, 1820, 300, -16.5}
+angle2 = {400, 1950, 2020, 120, -18}

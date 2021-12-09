@@ -1,0 +1,106 @@
+# Config file for camera to be used in CarDetector application.
+#
+# Options format:
+#   option = value
+#
+# All pathes are relative to the executable file.
+
+# path to file where to store trained TensorFlow graph model
+tensorflow_graph_file = tensorflow_graph.pb
+
+# path to file with labels used for training TensorFlow graph model
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+# URI to a camera
+camera_uri = rtsp://ipcammirgorod.ddns.net:554/live1.sdp
+
+# probing interval in seconds in which to get new camera screenshot
+camera_probe_interval = 60
+
+# camera auth token for freepark backend server
+camera_token = c2bcae958db85917835e620bb77e10a54c13db6f
+
+# section describing camera's parking, there can be many sections of this type
+parking = {
+
+# unique parking ID, must be synchronized with the one on backend side
+parking_id = 2
+
+# parking name, used for convenience
+parking_name = NSK_MIRGOROD_GP3
+
+# maximum number of cars that this parking can usually accommodate
+parking_capacity = 9
+
+# rectangle in pixels of a parking area on camera screenshot in format {x, y, width, height}, must fit to screenshot image size
+parking_rectangle = {940, 540, 210, 538}
+
+# parking geo-coordinate start point along the long side in format {latitude, longitude}
+parking_start_point = {54.853488, 83.040174}
+
+# parking geo-coordinate end point along the long side in format {latitude, longitude}
+parking_end_point = {54.853423, 83.039800}
+
+# counter-clockwise rotation degree in angles of a parking cropped image relative to camera captured image
+parking_rotation_degree = 0
+
+# Shifting in pixels from top and bottom of the image to be applied for all free parking places detected.
+parking_place_shift_top = 8
+parking_place_shift_bottom = 0
+
+# detection thershold in range (0;1], 0.5 is a good default
+parking_detection_threshold = 0.5
+
+# The next options are used only for 'UseCameraDistance' method:
+#parking_use_camera_distance_method = false
+
+# parking contour: pixel coordinates {x,y} inside the parking image
+#parking_contour = {{0,145}; {488,0}; {669,0}; {669,145}; {89,358}; {0,359}}
+
+# parking line pixel coordinates consisting of three points:
+#   start point
+#   middle point (specifies center of the parking in meters)
+#   end point
+#parking_line = {{20,355}; {406,216}; {652,128}}
+#parking_far_line = {{0,256}; {307,160}; {520,97}}
+
+# correction of the parking line, pixels
+#parking_line_delta = 20
+
+}
+
+parking = {
+
+parking_id = 1
+parking_name = NSK_MIRGOROD_GATES
+parking_capacity = 5
+
+parking_rectangle = {930, 305, 240, 100}
+
+parking_start_point = {54.853388, 83.040491}
+parking_end_point = {54.853565, 83.040330}
+
+parking_rotation_degree = 90
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 3
+parking_name = NSK_MIRGOROD_GUEST1
+parking_capacity = 10
+
+parking_rectangle = {1315, 480, 555, 115}
+
+parking_start_point = {54.853203, 83.040521}
+parking_end_point = {54.853360, 83.040353}
+
+parking_rotation_degree = 90
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+parking_detection_threshold = 0.5
+
+}

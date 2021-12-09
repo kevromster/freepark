@@ -1,0 +1,99 @@
+[
+parking id: 4
+spots count: 1
+
+{ lat: 55.937392; lon: 37.506285; complexity: NEWBIE }
+]
+
+[
+parking id: 5
+spots count: 0
+]
+
+[
+parking id: 6
+spots count: 0
+]
+
+[
+parking id: 7
+spots count: 0
+]
+
+[
+parking id: 8
+spots count: 0
+]
+
+[
+parking id: 9
+spots count: 0
+]
+
+[
+parking id: 10
+spots count: 3
+
+{ lat: 55.93753; lon: 37.505965; complexity: NEWBIE }
+{ lat: 55.937487; lon: 37.505963; complexity: NEWBIE }
+{ lat: 55.937471; lon: 37.505962; complexity: NEWBIE }
+]
+
+[
+parking id: 11
+spots count: 2
+
+{ lat: 55.937913; lon: 37.506104; complexity: NEWBIE }
+{ lat: 55.937691; lon: 37.50609; complexity: ACCURATE }
+]
+
+[
+parking id: 12
+spots count: 2
+
+{ lat: 55.937573; lon: 37.506082; complexity: NEWBIE }
+{ lat: 55.937556; lon: 37.506081; complexity: NEWBIE }
+]
+
+[
+parking id: 13
+spots count: 1
+
+{ lat: 55.937941; lon: 37.506256; complexity: NEWBIE }
+]
+
+[
+parking id: 14
+spots count: 0
+]
+
+[
+parking id: 15
+spots count: 1
+
+{ lat: 55.937739; lon: 37.506385; complexity: EXPERIENCED }
+]
+
+[
+parking id: 16
+spots count: 2
+
+{ lat: 55.937484; lon: 37.506309; complexity: NEWBIE }
+{ lat: 55.937472; lon: 37.506321; complexity: NEWBIE }
+]
+
+[
+parking id: 17
+spots count: 0
+]
+
+[
+parking id: 18
+spots count: 0
+]
+
+[
+parking id: 19
+spots count: 0
+]
+

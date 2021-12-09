@@ -1,0 +1,7 @@
+Build steps:
+
+  mkdir .build && cd .build
+  cmake -D CMAKE_BUILD_TYPE=Debug -DOpenCV_DIR=<path-to-OpenCV> ..
+  cmake --build . --target all
+
+or: use QtCreator or something else.

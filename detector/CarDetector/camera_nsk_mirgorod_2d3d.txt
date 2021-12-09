@@ -1,0 +1,41 @@
+#
+# Mirgorod camera 2D3D.
+# A view between the 2nd house (5) and the 3rd one (7).
+#
+
+tensorflow_graph_file = tensorflow_graph.pb
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+camera_uri=http://10.1.1.2:555/DneKUF3J?container=mjpeg&stream=main
+camera_probe_interval = 60
+camera_token = 02df7354f0b33bd39891f19cf59a1145d7b15428
+
+parking = {
+
+parking_id = 4
+parking_name = NSK_MIRGOROD_2D3D_1
+parking_capacity=6
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853636, 83.039103}
+parking_end_point = {54.853734, 83.039500}
+
+parking_rectangle = {0, 130, 1683, 670}
+parking_rotation_degree = 0
+
+# contour and parking line options next: pixel coordinates {x,y} inside parking image
+parking_contour = {{0,260}; {900,0}; {1683,0}; {1680,90}; {0,670}}
+
+# parking line pixels: start point, middle point (specifies center of the parking in meters), end point
+parking_line = {{0,670}; {1485,142}; {1683,71}}
+parking_far_line = {{0,435}; {1372,84}; {1611,37}}
+
+# correction of the parking line, pixels
+parking_line_delta = 20
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.1
+
+}

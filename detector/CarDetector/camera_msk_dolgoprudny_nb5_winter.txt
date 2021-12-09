@@ -1,0 +1,252 @@
+#
+# Moscow Dolgoprudny NB5 camera description.
+#   https://open.ivideon.com/embed/v2/?server=100-22cbd51194b25f1f142ca1a76e55a500&camera=0&width=1920&height=1080&lang=ru&ap=&fs=&noibw=
+#
+
+tensorflow_graph_file = tensorflow_graph.pb
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+camera_uri = file:///mnt/bigstore/xproject/TakeScreenshotsForCarDetector/screenshots/scr_last_msk_dolgoprudny_nb5.png
+camera_probe_interval = 60
+
+camera_token = 20c91f1b5bd664c1c9d05bd12c944aa5ae6d0846
+
+parking = {
+
+parking_id = 4
+parking_name = MSK_DOLGOPRUD_NB5_VERTICAL1
+parking_capacity = 12
+
+# 1252 350: +178  +500
+parking_rectangle = {1430, 850, 300, 888}
+
+parking_start_point = {55.937408, 37.505838}
+parking_end_point = {55.937391, 37.506321}
+
+parking_rotation_degree = 0
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 5
+parking_name = MSK_DOLGOPRUD_NB5_VERTICAL2_1
+parking_capacity = 5
+
+parking_rectangle = {1728, 860, 270, 360}
+
+parking_start_point = { 55.937470, 37.505871 }
+parking_end_point = { 55.937470, 37.506020 }
+
+parking_rotation_degree = -6.8
+
+parking_place_shift_top = 40
+parking_place_shift_bottom = 20
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 6
+parking_name = MSK_DOLGOPRUD_NB5_VERTICAL2_2
+parking_capacity = 3
+
+parking_rectangle = {1800, 1280, 300, 270}
+
+parking_start_point = { 55.937474, 37.506062 }
+parking_end_point = { 55.937476, 37.506308 }
+
+parking_rotation_degree = -6.8
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 25
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 7
+parking_name = MSK_DOLGOPRUD_NB5_VERTICAL3
+parking_capacity = 3
+
+parking_rectangle = {2700, 1600, 280, 380}
+
+parking_start_point = { 55.937888, 37.506404 }
+parking_end_point = { 55.937887, 37.506630 }
+
+parking_rotation_degree = -13
+
+parking_place_shift_top = 35
+parking_place_shift_bottom = 25
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 8
+parking_name = MSK_DOLGOPRUD_NB5_VERTICAL4
+parking_capacity = 6
+
+parking_rectangle = {3200, 1500, 270, 420}
+
+parking_start_point = { 55.937932, 37.506412 }
+parking_end_point = { 55.937938, 37.506651 }
+
+parking_rotation_degree = -15
+
+parking_place_shift_top = 20
+parking_place_shift_bottom = 25
+
+parking_detection_threshold = 0.5
+
+}
+
+
+parking = {
+
+parking_id = 9
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL1_1
+parking_capacity = 7
+
+parking_rectangle = {2800, 1100, 580, 200}
+
+parking_start_point = { 55.937991, 37.505998 }
+parking_end_point = { 55.937693, 37.505971 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 10
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL1_2
+parking_capacity = 14
+
+parking_rectangle = {2050, 1190, 790, 220}
+
+parking_start_point = { 55.937693, 37.505971 }
+parking_end_point = { 55.937440, 37.505961 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 15
+parking_place_shift_bottom = 30
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 11
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL2_1
+parking_capacity = 8
+
+parking_rectangle = {2650, 900, 630, 200}
+
+parking_start_point = { 55.937934, 37.506105 }
+parking_end_point = { 55.937675, 37.506089 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.4
+
+}
+
+parking = {
+
+parking_id = 12
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL2_2
+parking_capacity = 13
+
+parking_rectangle = {2000, 950, 650, 200}
+
+parking_start_point = { 55.937675, 37.506089 }
+parking_end_point = { 55.937431, 37.506073 }
+
+parking_rotation_degree = 83
+
+parking_place_shift_top = 2
+parking_place_shift_bottom = 10
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 13
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL3_1
+parking_capacity = 8
+
+parking_rectangle = {2800, 1250, 630, 230}
+
+parking_start_point = { 55.937958, 37.506256 }
+parking_end_point = { 55.937735, 37.506250 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 14
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL3_2
+parking_capacity = 9
+
+parking_rectangle = {2270, 1350, 530, 260}
+
+parking_start_point = { 55.937735, 37.506250 }
+parking_end_point = { 55.937551, 37.506245 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 15
+parking_name = MSK_DOLGOPRUD_NB5_HORIZONTAL4
+parking_capacity = 5
+
+parking_rectangle = {2520, 1580, 330, 150}
+
+parking_start_point = { 55.937887, 37.506392 }
+parking_end_point = { 55.937569, 37.506376 }
+
+parking_rotation_degree = 80
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.5
+
+}

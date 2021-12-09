@@ -1,0 +1,2 @@
+neg-0.pgm
+neg-1.pgm

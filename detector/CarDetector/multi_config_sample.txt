@@ -1,0 +1,10 @@
+# Multi-config file for many cameras to be used in CarDetector application.
+#
+# It stores pathes to specific camera configuration files, one per line.
+# Comments starting with '#' or empty lines are allowed.
+#
+# All pathes are relative to the executable CarDetector file.
+
+camera_nsk_mirgorodskaya5.txt
+camera_msk_dolgoprudny_nb5.txt
+camera_yaroslavl_rio.txt

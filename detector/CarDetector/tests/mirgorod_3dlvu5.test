@@ -1,0 +1,3 @@
+config = camera_nsk_mirgorod_3dlvu.txt
+input = input/mirgorod_3dlvu5.png
+expected = expected/mirgorod_3dlvu5.out

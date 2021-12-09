@@ -1,0 +1,39 @@
+# Config file for camera to be used in CarDetector application.
+#
+# Options format:
+#   option = value
+#
+# All pathes are relative to the executable file.
+
+# path to file where to store trained TensorFlow graph model
+tensorflow_graph_file = tensorflow_graph.pb
+
+# path to file with labels used for training TensorFlow graph model
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+# URI to a camera
+camera_uri = rtsp://91.192.175.230:8095/h264.sdp
+
+# probing interval in seconds in which to get new camera screenshot
+camera_probe_interval = 60
+
+# camera auth token for freepark backend server
+camera_token = 9e59556b856d11de933af94682351f5952dc22f2
+
+parking = {
+
+parking_id = 23
+parking_name = NSK_ACADEMPARK_GUSI_OUT1
+parking_capacity = 6
+
+parking_rectangle = {800, 150, 155,55}
+
+parking_start_point = {54.858219, 83.111893}
+parking_end_point = {54.858190, 83.111829}
+
+parking_rotation_degree = 0
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+parking_detection_threshold = 0.5
+
+}

@@ -1,0 +1,69 @@
+#
+# Yaroslavl TraceCenter RIO camera description.
+#   http://saferegion.net/cams/iframe/msk_rio_1/85ab0dc3903ccaf5700cb24797a8c5b2/hls/
+#
+
+tensorflow_graph_file = tensorflow_graph.pb
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+camera_uri = file:///mnt/bigstore/xproject/TakeScreenshotsForCarDetector/screenshots/scr_last_yaroslavl_rio.png
+camera_probe_interval = 60
+
+camera_token = cf1f09ca302176b6e218e5a29bea28da87bb86cf
+
+parking = {
+
+parking_id = 20
+parking_name = YAROSLAVL_RIO_HORIZONTAL1
+
+parking_rectangle = {0, 750, 2810, 1220}
+
+parking_start_point = {57.576195, 39.843989}
+parking_end_point = {57.576357, 39.844102}
+
+parking_rotation_degree = -90
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.5
+
+}
+
+parking = {
+
+parking_id = 21
+parking_name = YAROSLAVL_RIO_HORIZONTAL2_1
+
+parking_rectangle = {55, 460, 970, 240}
+
+parking_start_point = {57.576149, 39.843699}
+parking_end_point = {57.576299, 39.843855}
+
+parking_rotation_degree = -90
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.3
+
+}
+
+parking = {
+
+parking_id = 22
+parking_name = YAROSLAVL_RIO_HORIZONTAL2_2
+
+parking_rectangle = {980, 490, 1690, 380}
+
+parking_start_point = {57.576299, 39.843855}
+parking_end_point = {57.576388, 39.843989}
+
+parking_rotation_degree = -90
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.3
+
+}

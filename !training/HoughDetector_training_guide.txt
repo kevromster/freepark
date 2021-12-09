@@ -1,0 +1,8 @@
+My HoughDetector training guide:
+
+- Convert clipped images into black&white format.
+- Rotate top_vertical images into horizontal position.
+- Standard Haar cascade can be trained as described here: https://habrahabr.ru/post/208092/
+- My HoughDetector training:
+-- Resize all images for one size.
+-- Create dat-files, config file and run training.

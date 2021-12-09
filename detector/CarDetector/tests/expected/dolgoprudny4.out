@@ -1,0 +1,119 @@
+[
+parking id: 4
+spots count: 3
+
+{ lat: 55.937407; lon: 37.50586; complexity: NEWBIE }
+{ lat: 55.937402; lon: 37.505997; complexity: EXPERIENCED }
+{ lat: 55.937392; lon: 37.506286; complexity: NEWBIE }
+]
+
+[
+parking id: 5
+spots count: 0
+]
+
+[
+parking id: 6
+spots count: 0
+]
+
+[
+parking id: 7
+spots count: 1
+
+{ lat: 55.937888; lon: 37.506473; complexity: NEWBIE }
+]
+
+[
+parking id: 8
+spots count: 1
+
+{ lat: 55.937936; lon: 37.506585; complexity: NEWBIE }
+]
+
+[
+parking id: 9
+spots count: 0
+]
+
+[
+parking id: 10
+spots count: 3
+
+{ lat: 55.937644; lon: 37.505969; complexity: NEWBIE }
+{ lat: 55.937488; lon: 37.505963; complexity: NEWBIE }
+{ lat: 55.937472; lon: 37.505962; complexity: NEWBIE }
+]
+
+[
+parking id: 11
+spots count: 1
+
+{ lat: 55.93784; lon: 37.506099; complexity: EXPERIENCED }
+]
+
+[
+parking id: 12
+spots count: 3
+
+{ lat: 55.937571; lon: 37.506082; complexity: NEWBIE }
+{ lat: 55.937554; lon: 37.506081; complexity: NEWBIE }
+{ lat: 55.937495; lon: 37.506077; complexity: NEWBIE }
+]
+
+[
+parking id: 13
+spots count: 1
+
+{ lat: 55.937941; lon: 37.506256; complexity: NEWBIE }
+]
+
+[
+parking id: 14
+spots count: 1
+
+{ lat: 55.937591; lon: 37.506246; complexity: NEWBIE }
+]
+
+[
+parking id: 15
+spots count: 3
+
+{ lat: 55.937797; lon: 37.506387; complexity: NEWBIE }
+{ lat: 55.93774; lon: 37.506385; complexity: NEWBIE }
+{ lat: 55.937683; lon: 37.506382; complexity: NEWBIE }
+]
+
+[
+parking id: 16
+spots count: 3
+
+{ lat: 55.937481; lon: 37.506312; complexity: NEWBIE }
+{ lat: 55.937468; lon: 37.506324; complexity: NEWBIE }
+{ lat: 55.937456; lon: 37.506336; complexity: NEWBIE }
+]
+
+[
+parking id: 17
+spots count: 1
+
+{ lat: 55.937318; lon: 37.506463; complexity: ACCURATE }
+]
+
+[
+parking id: 18
+spots count: 3
+
+{ lat: 55.937479; lon: 37.506444; complexity: NEWBIE }
+{ lat: 55.937449; lon: 37.506463; complexity: NEWBIE }
+{ lat: 55.937419; lon: 37.506482; complexity: NEWBIE }
+]
+
+[
+parking id: 19
+spots count: 2
+
+{ lat: 55.937265; lon: 37.506558; complexity: NEWBIE }
+{ lat: 55.937233; lon: 37.506574; complexity: NEWBIE }
+]
+

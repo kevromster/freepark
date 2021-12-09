@@ -1,0 +1,17 @@
+[
+parking id: 27
+spots count: 0
+]
+
+[
+parking id: 28
+spots count: 0
+]
+
+[
+parking id: 29
+spots count: 1
+
+{ lat: 54.853841; lon: 83.039726; complexity: NEWBIE }
+]
+

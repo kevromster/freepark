@@ -1,0 +1,3 @@
+config = camera_nsk_mirgorodskaya5.txt
+input = input/mirgorod_own4.png
+expected = expected/mirgorod_own4.out

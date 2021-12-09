@@ -1,0 +1,36 @@
+[
+parking id: 2
+spots count: 3
+
+{ lat: 54.853452; lon: 83.03997; complexity: NEWBIE }
+{ lat: 54.853446; lon: 83.039933; complexity: NEWBIE }
+{ lat: 54.85344; lon: 83.039896; complexity: NEWBIE }
+]
+
+[
+parking id: 1
+spots count: 4
+
+{ lat: 54.853405; lon: 83.040476; complexity: EXPERIENCED }
+{ lat: 54.85347; lon: 83.040417; complexity: NEWBIE }
+{ lat: 54.853501; lon: 83.040388; complexity: NEWBIE }
+{ lat: 54.853533; lon: 83.040359; complexity: NEWBIE }
+]
+
+[
+parking id: 3
+spots count: 11
+
+{ lat: 54.85321; lon: 83.040513; complexity: NEWBIE }
+{ lat: 54.853224; lon: 83.040498; complexity: NEWBIE }
+{ lat: 54.853238; lon: 83.040483; complexity: NEWBIE }
+{ lat: 54.853252; lon: 83.040468; complexity: NEWBIE }
+{ lat: 54.853267; lon: 83.040453; complexity: NEWBIE }
+{ lat: 54.853281; lon: 83.040438; complexity: NEWBIE }
+{ lat: 54.853295; lon: 83.040423; complexity: NEWBIE }
+{ lat: 54.853309; lon: 83.040408; complexity: NEWBIE }
+{ lat: 54.853323; lon: 83.040393; complexity: NEWBIE }
+{ lat: 54.853337; lon: 83.040377; complexity: NEWBIE }
+{ lat: 54.853351; lon: 83.040362; complexity: NEWBIE }
+]
+

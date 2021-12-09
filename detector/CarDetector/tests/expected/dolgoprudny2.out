@@ -1,0 +1,126 @@
+[
+parking id: 4
+spots count: 3
+
+{ lat: 55.937394; lon: 37.506227; complexity: NEWBIE }
+{ lat: 55.937393; lon: 37.506264; complexity: NEWBIE }
+{ lat: 55.937392; lon: 37.5063; complexity: NEWBIE }
+]
+
+[
+parking id: 5
+spots count: 2
+
+{ lat: 55.93747; lon: 37.505908; complexity: NEWBIE }
+{ lat: 55.93747; lon: 37.505969; complexity: NEWBIE }
+]
+
+[
+parking id: 6
+spots count: 0
+]
+
+[
+parking id: 7
+spots count: 2
+
+{ lat: 55.937888; lon: 37.506455; complexity: NEWBIE }
+{ lat: 55.937888; lon: 37.506511; complexity: NEWBIE }
+]
+
+[
+parking id: 8
+spots count: 2
+
+{ lat: 55.937933; lon: 37.506443; complexity: NEWBIE }
+{ lat: 55.937936; lon: 37.506585; complexity: NEWBIE }
+]
+
+[
+parking id: 9
+spots count: 1
+
+{ lat: 55.937794; lon: 37.50598; complexity: NEWBIE }
+]
+
+[
+parking id: 10
+spots count: 7
+
+{ lat: 55.937662; lon: 37.50597; complexity: NEWBIE }
+{ lat: 55.937647; lon: 37.505969; complexity: NEWBIE }
+{ lat: 55.937557; lon: 37.505966; complexity: NEWBIE }
+{ lat: 55.937542; lon: 37.505965; complexity: NEWBIE }
+{ lat: 55.937526; lon: 37.505964; complexity: NEWBIE }
+{ lat: 55.937488; lon: 37.505963; complexity: NEWBIE }
+{ lat: 55.937472; lon: 37.505962; complexity: NEWBIE }
+]
+
+[
+parking id: 11
+spots count: 1
+
+{ lat: 55.937887; lon: 37.506102; complexity: NEWBIE }
+]
+
+[
+parking id: 12
+spots count: 3
+
+{ lat: 55.937572; lon: 37.506082; complexity: NEWBIE }
+{ lat: 55.937555; lon: 37.506081; complexity: NEWBIE }
+{ lat: 55.937447; lon: 37.506074; complexity: NEWBIE }
+]
+
+[
+parking id: 13
+spots count: 2
+
+{ lat: 55.937945; lon: 37.506256; complexity: NEWBIE }
+{ lat: 55.93792; lon: 37.506255; complexity: NEWBIE }
+]
+
+[
+parking id: 14
+spots count: 1
+
+{ lat: 55.937566; lon: 37.506245; complexity: NEWBIE }
+]
+
+[
+parking id: 15
+spots count: 1
+
+{ lat: 55.937739; lon: 37.506385; complexity: EXPERIENCED }
+]
+
+[
+parking id: 16
+spots count: 4
+
+{ lat: 55.937533; lon: 37.506262; complexity: NEWBIE }
+{ lat: 55.937502; lon: 37.506292; complexity: NEWBIE }
+{ lat: 55.937489; lon: 37.506304; complexity: NEWBIE }
+{ lat: 55.937477; lon: 37.506316; complexity: NEWBIE }
+]
+
+[
+parking id: 17
+spots count: 1
+
+{ lat: 55.937285; lon: 37.506484; complexity: NEWBIE }
+]
+
+[
+parking id: 18
+spots count: 2
+
+{ lat: 55.937493; lon: 37.506435; complexity: NEWBIE }
+{ lat: 55.937463; lon: 37.506454; complexity: NEWBIE }
+]
+
+[
+parking id: 19
+spots count: 0
+]
+

@@ -1,0 +1,101 @@
+#
+# Mirgorod camera 3DBUDKA.
+# A view from the 3rd house (7) to the electrical box.
+#
+
+tensorflow_graph_file = tensorflow_graph.pb
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+camera_uri=http://10.1.1.2:555/QpY6tXgZ?container=mjpeg&stream=main
+camera_probe_interval = 60
+camera_token = 02df7354f0b33bd39891f19cf59a1145d7b15428
+
+parking = {
+
+parking_id = 5
+parking_name = NSK_MIRGOROD_3DBUDKA_1
+parking_capacity=3
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853734, 83.039500}
+parking_end_point = {54.853800, 83.039733}
+
+parking_rectangle = {167, 164, 1260, 665}
+parking_rotation_degree = 0
+
+# contour and parking line options next: pixel coordinates {x,y} inside parking image
+parking_contour = {{0,230}; {900,0}; {1260,0}; {1260,168}; {106,665}; {0,665}}
+
+# parking line pixels: start point, middle point (specifies center of the parking in meters), end point
+parking_line = {{22,641}; {926,266}; {1255,129}}
+parking_far_line = {{0,461}; {790,211}; {1158,93}}
+
+# correction of the parking line, pixels
+parking_line_delta = 20
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.1
+
+}
+
+parking = {
+
+parking_id = 6
+parking_name = NSK_MIRGOROD_3DBUDKA_2
+parking_capacity=1
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853828, 83.039830}
+parking_end_point = {54.853853, 83.039927}
+
+parking_rectangle = {1386, 148, 230, 160}
+parking_rotation_degree = 0
+
+# contour and parking line options next: pixel coordinates {x,y} inside parking image
+parking_contour = {{0,0}; {229,0}; {229,159}; {0,159}}
+
+# parking line pixels: start point, middle point (specifies center of the parking in meters), end point
+parking_line = {{89,142}; {140,121}; {174,107}}
+parking_far_line = {{0,110}; {52,93}; {85,83}}
+
+# correction of the parking line, pixels
+parking_line_delta = 20
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.1
+
+}
+
+parking = {
+
+parking_id = 7
+parking_name = NSK_MIRGOROD_3DBUDKA_3
+parking_capacity=4
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853802, 83.039581}
+parking_end_point = {54.853862, 83.039803}
+
+parking_rectangle = {470, 65, 630, 190}
+parking_rotation_degree = 0
+
+# contour and parking line options next: pixel coordinates {x,y} inside parking image
+parking_contour = {{0,38}; {416,0}; {577,0}; {629,40}; {629,128}; {253,189}; {129,189}; {0,126}}
+
+# parking line pixels: start point, middle point (specifies center of the parking in meters), end point
+parking_line = {{156,180}; {419,137}; {629,101}}
+parking_far_line = {{20,113}; {309,76}; {454,56}}
+
+# correction of the parking line, pixels
+parking_line_delta = 20
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.1
+
+}

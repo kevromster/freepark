@@ -1,0 +1,3 @@
+config = camera_msk_dolgoprudny_nb5.txt
+input = input/dolgoprudny4.png
+expected = expected/dolgoprudny4.out

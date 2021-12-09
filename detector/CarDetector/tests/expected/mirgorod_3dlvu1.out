@@ -1,0 +1,23 @@
+[
+parking id: 24
+spots count: 1
+
+{ lat: 54.853769; lon: 83.040094; complexity: NEWBIE }
+]
+
+[
+parking id: 25
+spots count: 1
+
+{ lat: 54.85366; lon: 83.040178; complexity: ACCURATE }
+]
+
+[
+parking id: 26
+spots count: 3
+
+{ lat: 54.853745; lon: 83.040042; complexity: NEWBIE }
+{ lat: 54.853702; lon: 83.040081; complexity: NEWBIE }
+{ lat: 54.85366; lon: 83.04012; complexity: NEWBIE }
+]
+

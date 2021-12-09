@@ -1,0 +1,8 @@
+General guide for training TensorFlow model:
+
+- Collect camera screenshots via AutoIt' "take_cam_screenshots.aut3" script (currently works only on Windows).
+- Crop screenshots into set of parking images for "TrainImageCropper" app.
+- Run ImageClipper app on these images and mark cars by bounding boxes (currently correctly works only on Windows).
+- Prepare dataset from cropped images (images itself and images_list.txt file) with the help of scripts in tensorflow/ directory.
+- Create tf-record training and validating files with create_tf_record.py.
+- Start training process as described in TensorFlow documents.

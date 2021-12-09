@@ -1,0 +1,8 @@
+#
+# Config file for the cropper.
+# Format:  <parking_name> = {x, y, width, height, rotation_degree}
+#
+
+bottom = {2140, 1325, 415, 670, 0}
+middle = {2140, 280, 415, 1020, 0}
+top_vertical = {2880, 150, 665, 280, 0}

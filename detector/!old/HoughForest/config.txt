@@ -1,0 +1,38 @@
+# Path to trees + prefix 'treetable'
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/trees/treetable
+# Number of trees
+10
+# Patch width
+16
+# Patch height
+16
+# Path to images
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/testimages_scaled
+# File with names of images
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/test_scaled.txt
+# Extract features
+1
+# Scales (Number of scales - Scales)
+1 1
+# Ratios (Number of ratios - ratio)
+1 1
+# Output path
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/out_detect_scaled
+# Scale factor for output image (default: 128)
+50
+# Path to positive examples
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/trainimages
+# File with postive examples
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/train_pos.txt
+# Subset of positive images -1: all images
+-1
+# Sample patches from pos. examples
+50
+# Path to negative examples
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/trainimages
+# File with negative examples
+/home/kevrom/work/freepark/ws_freepark/.build/HoughForest/train_neg.txt
+# Subset of negative images -1: all images
+-1
+# Sample patches from neg. examples
+50

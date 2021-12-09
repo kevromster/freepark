@@ -1,0 +1,17 @@
+certifi==2017.4.17
+chardet==3.0.3
+coreapi==2.3.1
+coreschema==0.0.4
+Django==1.11.1
+djangorestframework==3.6.3
+idna==2.5
+itypes==1.1.0
+Jinja2==2.9.6
+MarkupSafe==1.0
+olefile==0.44
+Pillow==4.1.1
+pytz==2017.2
+requests==2.16.5
+six==1.10.0
+uritemplate==3.0.0
+urllib3==1.21.1

@@ -1,0 +1,6 @@
+function(ConnectTensorFlowLibs)
+	set(TF_LIB "/usr/local")
+	set(TF_LIB_NAME "tensorflow")
+	include_directories("${TF_LIB}/include")
+	set(TensorFlow_LIBS "${TF_LIB}/lib/${CMAKE_SHARED_LIBRARY_PREFIX}${TF_LIB_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX}" PARENT_SCOPE)
+endfunction(ConnectTensorFlowLibs)

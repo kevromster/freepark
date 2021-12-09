@@ -1,0 +1,58 @@
+# Config file for HoughDetector application.
+#
+# Options format:
+#   option = value
+#
+# All pathes are relative to the executable file.
+
+# path to file where to store trained Hough forest
+trained_forest_path = trained_forest_homeMayMid2017.custom
+
+# count of hough trees to train
+trees_count = 10
+
+# path to positive training images
+train_positive_path = trainimages/pos
+
+# file with filenames of positive training images
+train_positive_files = train_pos.txt
+
+# path to negative training images
+train_negative_path = trainimages/neg
+
+# file with filenames of negative training images
+train_negative_files = train_neg.txt
+
+# patch size to extract from training images
+patch_width = 16
+patch_height = 16
+
+# patches count to extract from training images
+patches_count = 50
+
+# size objects in training images (training objects must have same size in all training images)
+train_object_width = 164
+train_object_height = 82
+
+# maximum tree depth
+tree_max_depth = 15
+
+# stop tree growing when patches count is less than this value
+tree_min_patches_in_leaf = 20
+
+# count of iterations to try when training tree node
+train_tree_iterations_count = 2000
+
+
+#########
+# detection options below, not needed for training
+
+
+# scalings used to detect different-size objects (scale 1 refers to trained_object_width/height options)
+detect_scales = (1.6)
+
+# scaling to be applied to detected image
+detected_scaling = 100
+
+# detection threshold to cut weak detections, should be in range [1-255]
+detection_threshold = 90

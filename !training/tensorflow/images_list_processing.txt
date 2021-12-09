@@ -1,0 +1,8 @@
+v - process screenshots by ImageClipper and generate images_list.txt (Win)
+v - remove duplicates (Linux)
+v - replace '\'->'/'  (Linux)
+v - dos2unix (Linux)
+v - find false positives by processing cropped by eyes (Win)
+v - remove found false positives (Linux)
+v - replace <0 -> 0, >w/h -> w/h (Linux)
+v - cut file directory location (Linux)

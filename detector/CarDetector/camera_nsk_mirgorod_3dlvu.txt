@@ -1,0 +1,91 @@
+#
+# Mirgorod camera 3DLVU.
+#
+
+tensorflow_graph_file = tensorflow_graph.pb
+tensorflow_labels_file = mscoco_label_map.pbtxt
+
+camera_uri=http://10.1.1.2:555/CpAgQGKu?container=mjpeg&stream=main
+camera_probe_interval = 60
+camera_token = 02df7354f0b33bd39891f19cf59a1145d7b15428
+
+parking = {
+
+parking_id = 1
+parking_name = NSK_MIRGOROD_3DLVU_1
+parking_capacity=5
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853815, 83.040060}
+parking_end_point = {54.853722, 83.040129}
+
+parking_rectangle = {0, 50, 670, 360}
+parking_rotation_degree = -20.3
+
+parking_contour = {{0,145}; {488,0}; {669,0}; {669,145}; {89,358}; {0,359}}
+
+parking_line = {{20,355}; {406,216}; {652,128}}
+parking_far_line = {{0,256}; {307,160}; {520,97}}
+
+parking_line_delta = 20
+
+parking_place_shift_top = 8
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.2
+
+}
+
+parking = {
+
+parking_id = 2
+parking_name = NSK_MIRGOROD_3DLVU_2
+parking_capacity=2
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853686, 83.040161}
+parking_end_point = {54.853644, 83.040188}
+
+parking_rectangle = {600, 40, 280, 135}
+parking_contour = {{0,0}; {150,0}; {279,30}; {279,100}; {170,134}; {120,134}; {0,96}}
+
+# parking line pixels: start point, middle point (specifies center of the parking in meters), end point
+parking_line = {{131,120}; {194,104}; {247,91}}
+parking_far_line = {{16,86}; {86,72}; {139,61}}
+
+parking_line_delta = 5
+parking_detection_threshold = 0.4
+
+# these options are not used by UseCameraDistance method
+parking_rotation_degree = 0
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+}
+
+parking = {
+
+parking_id = 3
+parking_name = NSK_MIRGOROD_3DLVU_3
+parking_capacity=4
+parking_use_camera_distance_method = true
+
+parking_start_point = {54.853822, 83.039972}
+parking_end_point = {54.853633, 83.040144}
+
+parking_rectangle = {0, 127, 1060, 593}
+parking_rotation_degree = 0
+
+parking_contour = {{0,318}; {353,159}; {908,0}; {1059,0}; {1059,91}; {289,592}; {0,592}}
+
+parking_line = {{172,592}; {884,170}; {1059,66}}
+parking_far_line = {{26,485}; {813,131}; {1001,48}}
+
+parking_line_delta = 10
+
+parking_place_shift_top = 0
+parking_place_shift_bottom = 0
+
+parking_detection_threshold = 0.2
+
+}
